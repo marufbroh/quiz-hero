@@ -44,6 +44,19 @@
             or browser.</p>
     </div>
 
+    <div>
+        <h1>3. What is Event Loop and how it works?</h1>
+        <p><b>Answer: </b>The event loop is an architectural design pattern that allows code to run asynchronously on
+            the JavaScript engines and makes it possible for code to execute blocking instructions first and, when
+            available, asynchronous functions.
+            The event loop has three major components: the call stack, the event queue, and web APIs and C++ APIs. The
+            call stack will execute code in a last-in-first-out approach. And then the event loop comes in. Event Loop's
+            job is to watch Callback Queue and Call Stack whenever Call Stack is empty and we have called in Callback
+            Queue. The event loop will move calls to the call stack and execute them in succession.
+            It manages function calls in such a way that asynchronous events would go into the event queue and be called
+            only after the call stack is empty. That's the way of Event Loop works.</p>
+    </div>
+
 
 </body>
 
